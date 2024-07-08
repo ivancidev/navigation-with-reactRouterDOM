@@ -6,7 +6,9 @@ export default function Home() {
   const { user } = useContext(UserContext);
   return (
     <>
-    <Table user={user}  />
+      <section>
+        <Table user={user} />
+      </section>
     </>
-  )
+  );
 }
