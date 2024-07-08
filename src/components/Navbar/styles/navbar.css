@@ -29,6 +29,7 @@ ul {
   }
 
   a:hover {
-    color: #f00;
+    color: rgb(72, 0, 255);
+    text-decoration: none;
   }
 }
