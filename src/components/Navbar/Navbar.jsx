@@ -14,16 +14,16 @@ export default function Navbar() {
         <li>
           <Link
             to={"/"}
-            style={{ color: hover == "/" ? "blue" : "" }}
+            style={{ color: hover == "/" ? "#00a8ff" : "" }}
             onClick={() => handleHover("/")}
           >
-            Home
+            Register
           </Link>
         </li>
         <li>
           <Link
             to={"/about"}
-            style={{ color: hover == "/about" ? "blue" : "" }}
+            style={{ color: hover == "/about" ? "#00a8ff" : "" }}
             onClick={() => handleHover("/about")}
           >
             About
@@ -32,7 +32,7 @@ export default function Navbar() {
         <li>
           <Link
             to={"/blog"}
-            style={{ color: hover == "/blog" ? "blue" : "" }}
+            style={{ color: hover == "/blog" ? "#00a8ff" : "" }}
             onClick={() => handleHover("/blog")}
           >
             Blog
@@ -40,11 +40,11 @@ export default function Navbar() {
         </li>
         <li>
           <Link
-            to={"/register"}
-            style={{ color: hover == "/register" ? "blue" : "" }}
+            to={"/contacts"}
+            style={{ color: hover == "/register" ? "#00a8ff" : "" }}
             onClick={() => handleHover("/register")}
           >
-            Register
+            Contacts
           </Link>
         </li>
       </ul>
