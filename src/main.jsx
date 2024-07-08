@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import React from "react";
-import ErrorPage from "./pages/ErrorPage";
+import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import UserProvider from "./context/UserProvider";
 
 const router = createBrowserRouter([
