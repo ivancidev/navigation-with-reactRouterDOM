@@ -38,6 +38,15 @@ export default function Navbar() {
             Blog
           </Link>
         </li>
+        <li>
+          <Link
+            to={"/register"}
+            style={{ color: hover == "/register" ? "blue" : "" }}
+            onClick={() => handleHover("/register")}
+          >
+            Register
+          </Link>
+        </li>
       </ul>
     </nav>
   );
