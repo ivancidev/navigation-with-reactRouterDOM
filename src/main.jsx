@@ -7,6 +7,7 @@ import Blog from "./pages/Blog";
 import React from "react";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import UserProvider from "./context/UserProvider";
+import Register from "./pages/Register";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog />,
+      },
+      {
+        path: "/register",
+        element: <Register />
       },
     ],
   },
